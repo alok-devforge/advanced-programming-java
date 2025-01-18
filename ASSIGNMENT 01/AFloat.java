@@ -1,4 +1,4 @@
-public class Float
+public class AFloat
 {
     public static void main(String[] args)
     {

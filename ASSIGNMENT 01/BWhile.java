@@ -1,4 +1,4 @@
-public class While
+public class BWhile
 {
     public static void main(String args[])
     {
