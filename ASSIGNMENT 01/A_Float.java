@@ -1,4 +1,4 @@
-public class AFloat
+public class A_Float
 {
     public static void main(String[] args)
     {

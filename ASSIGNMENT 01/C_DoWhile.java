@@ -1,4 +1,4 @@
-public class CDoWhile
+public class C_DoWhile
 {
     public static void main(String[] args)
     {

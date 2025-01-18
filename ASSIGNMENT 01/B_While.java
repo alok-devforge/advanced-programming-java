@@ -1,4 +1,4 @@
-public class BWhile
+public class B_While
 {
     public static void main(String args[])
     {
