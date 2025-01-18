@@ -1,4 +1,4 @@
-public class Table
+public class While
 {
     public static void main(String args[])
     {
