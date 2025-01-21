@@ -3,6 +3,7 @@ public class D_Triangle
     public static void main(String[] args)
     {
         int n= 5;
+        System.out.println("Triangle of Numbers: ");
         for(int x= 1;x<=n;x++)
         {
             for(int s= 4-x;s>=0;s--)
