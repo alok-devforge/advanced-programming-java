@@ -1,4 +1,4 @@
-import java.util.Math;
+import java.lang.Math;
 public class A_Armstrong
 {
     static boolean checkArm(int num)
