@@ -18,7 +18,7 @@ public class D_MaxAndMin
             if(arr[x]<min)
                 min= arr[x];
         }
-        System.out.println("Maximum element: "+max);
-        System.out.println("Minimum element: "+min);
+        System.out.println("Maximum element present in the array is: "+max);
+        System.out.println("Minimum element present un the array is: "+min);
     }
 }
