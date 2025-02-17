@@ -1,31 +1,31 @@
-class Grandparent
+class Animal
 {
-    void dispGrandparent()
+    void eat()
     {
-        System.out.println("This is the Grandparent class.");
+        System.out.println("Animals eat food.");
     }
 }
-class Parent extends Grandparent
+class Mammal extends Animal
 {
-    void dispParent()
+    void breathe()
     {
-        System.out.println("This is the Parent class.");
+        System.out.println("Mammals breathe air.");
     }
 }
-class Child extends Parent
+class Dog extends Mammal
 {
-    void dispChild()
+    void bark()
     {
-        System.out.println("This is the Child class.");
+        System.out.println("Dogs bark.");
     }
 }
-public class B_Inheritence
+public class MultilevelInheritanceExample
 {
     public static void main(String[] args)
     {
-        Child ob = new Child();
-        ob.dispGrandparent();
-        ob.dispParent();     
-        ob.dispChild();       
+        Dog ob= new Dog();
+        ob.eat();     
+        ob.breathe(); 
+        ob.bark();    
     }
 }
