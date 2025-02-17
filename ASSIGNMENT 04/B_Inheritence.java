@@ -19,7 +19,7 @@ class Dog extends Mammal
         System.out.println("Dogs bark.");
     }
 }
-public class MultilevelInheritanceExample
+public class B_Inheritence
 {
     public static void main(String[] args)
     {
