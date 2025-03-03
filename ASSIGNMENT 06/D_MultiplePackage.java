@@ -1,12 +1,11 @@
-import package1.Addition;
-import package2.Multiplication;
+import package1.Calculate;
 public class D_MultiplePackage
 {
     public static void main(String[] args)
     {
-        Addition ob1 = new Addition();
+        Calculate ob1 = new Calculate();
         ob1.display();
-        Multiplication ob2 = new Multiplication();
+        package2.Calculate ob2 = new package2.Calculate();
         ob2.display();
     }
-}
+}  

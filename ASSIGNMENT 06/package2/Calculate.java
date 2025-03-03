@@ -1,5 +1,5 @@
 package package2;
-public class Multiplication
+public class Calculate
 {
     public int multiply(int a,int b)
     {
@@ -8,6 +8,6 @@ public class Multiplication
     public void display()
     {
         int a= 15,b= 25;
-        System.out.println("Multiplication from package2.SameName: "+a+" * "+b+" = "+multiply(a, b));
+        System.out.println("Multiplication from package2.Calculate: "+a+" * "+b+" = "+multiply(a, b));
     }
 }
