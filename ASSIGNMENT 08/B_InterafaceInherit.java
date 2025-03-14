@@ -36,7 +36,7 @@ public class B_InterafaceInherit implements AdvancedMath
     public static void main(String[] args)
     {
         B_InterafaceInherit ob = new B_InterafaceInherit();
-        int a = 20, b = 10;
+        int a = 55, b = 23;
         System.out.println("Addition: " + a + " + " + b + " = " + ob.add(a, b));
         System.out.println("Subtraction: " + a + " - " + b + " = " + ob.subtract(a, b));
         System.out.println("Multiplication: " + a + " * " + b + " = " + ob.multiply(a, b));
