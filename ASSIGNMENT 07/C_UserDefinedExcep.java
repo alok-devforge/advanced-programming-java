@@ -7,7 +7,7 @@ class MyCustomException extends Exception
     }
 }
 
-public class C_UserDefinedFunc
+public class C_UserDefinedExcep
 {
     static void validateAge(int age) throws MyCustomException
     {
